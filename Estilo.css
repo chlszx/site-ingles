@@ -1,0 +1,244 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: rgb(60, 60, 60);
+}
+.MenuPqs {
+    background-color: rgb(30, 30, 30);
+    border: 1px solid rgb(30, 30, 30);
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.MenuPqs h1 {
+    font-size: 25px;
+    margin: 15px;
+    color: darkgray;
+}
+#Pesquisa {
+    width: 500px;
+    height: 50px;
+    border: 2px solid rgb(60, 60, 60);
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin:   10px 2px 10px 50px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(60, 60, 60);
+    color: darkgray;
+}
+#pesquisa::placeholder {
+    color: darkgray;
+}
+#btn {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0px;
+    border:  2px solid rgb(60, 60, 60);
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgb(60, 60, 60);
+}
+#configurações {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid rgb(60, 60, 60);
+    background-color: rgb(60, 60, 60);
+    margin-left: 300px;
+}
+#Img {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid rgb(60, 60, 60);
+    background-color: rgb(60, 60, 60);
+    margin: 10px;
+}
+.MenuOPC {
+    border: 1px solid rgb(30, 30, 30);
+    width: 100%;
+    height: 25px;
+    margin: 5px 0;
+    display: flex;
+    background-color: rgb(30, 30, 30);
+}
+.MenuOPC #PgnIn, #Superlative, #TheLeast, #ComoUsar, #CxS, #quiz {
+    font-size: 15px;
+    color: darkgray;
+    margin: 0px auto;
+    padding: 0px 5px;
+}
+.MenuOPC a {
+    color: darkgray;
+    text-decoration: none;
+}
+.MenuOPC a:hover {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s ease, text-decoration 0.5s ease;
+}
+.Pagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 150vh;
+    position: relative;
+}
+.Pagina h1 {
+    align-self: self-start;
+    font-size: 30px;
+    color: dodgerblue;
+    font-weight: normal;
+    margin: 40px 10px 10px 150px;
+}
+.Txt, .Vds, .Links {
+    background-color: rgb(30, 30, 30);
+    padding: 20px;
+    border-radius: 20px;
+}
+.Txt {
+    align-self: flex-start;
+    width: 700px;
+    height: 800px;
+    margin: 20px 10px 10px 150px;
+    color: darkgray;
+    text-align: left;
+}
+.Txt h1 {
+    align-self: left;
+    font-size: 25px;
+    margin-left: 0;
+    margin-top: 0;
+}
+.Txt hr {
+    border: none;
+    border-top: 1px solid;
+}
+.Vds {
+    position: absolute;
+    top: 120px;   
+    right: 160px;         
+    width: 300px;
+    color: darkgray;
+}
+.Links {
+    position: absolute;
+    top: 490px;
+    right: 160px;
+    width: 300px;
+    color: darkgray;
+}
+body.Quiz {
+    background-image: url(money.png);
+}
+.app {
+    margin: 50px auto 50px;
+    background-color: rgb(30, 30, 30);
+    border: 2px solid rgb(30, 30, 30);
+    border-radius: 20px;
+    padding: 20px;
+    width: 700px;
+}
+.app h1 {
+    color: dodgerblue;
+    font-weight: 600px;
+    border-bottom: 1px solid rgb(60, 60, 60);
+    padding-bottom: 20px;
+}
+.qst {
+    padding: 20px 0;
+}
+.app h2 {
+    color: dodgerblue;
+    margin: 10px 0 20px 0;
+}
+.btn {
+    background: rgb(30, 30, 30);
+    border: 2px solid rgb(60, 60, 60);
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 15px;
+    color: #fff;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.btn:hover:not([disabled]) {
+    background: dodgerblue;
+    color: #fff;
+}
+.btn:disabled {
+    cursor: no-drop;
+}
+#ans-btns {
+    background: rgb(30, 30, 30);
+}
+.input-text {
+    background: rgb(30, 30, 30);
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 15px;
+    border: 2px solid rgb(60, 60, 60);
+    border-radius: 15px;
+    color: #fff;
+    text-align: left;
+    cursor: pointer;
+}
+#cont-btns {
+    display: flex;
+}
+#Prx {
+    background: dodgerblue;
+    color: #fff;
+    font-size: 15px;
+    width: 200px;
+    margin: 20px auto 0;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid dodgerblue;
+    border-radius: 15px;
+    cursor: pointer;
+    display: none;
+}
+#backBtn{
+    background: dodgerblue;
+    color: #fff;
+    font-size: 15px;
+    width: 200px;
+    margin: 20px auto 0;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid dodgerblue;
+    border-radius: 15px;
+    cursor: pointer;
+    display: none;
+}
+.correct {
+    background: #9aeabc;
+}
+.incorrect {
+    background: #ff9393;
+}
+.desenvol {
+    width: 300px;
+    height: 30px;
+    background: rgb(30, 30, 30);
+    border-radius: 25px;
+    border: 2px solid rgb(30, 30, 30);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: darkgray;
+    text-align: center;
+    margin: 10px auto 10px;
+}
